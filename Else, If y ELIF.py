@@ -10,7 +10,7 @@ print(A)
 ### Establecemos la condicion, que si A es exactamente igual a 7, se imprima en pantalla el texto ###
 if A==7:
     print("A es igual a 7")
-### Escribir "==" es necesario para poder comparar, ya que un solo signo de igualdad se interppreta como operador de asignacion ###
+### Escribir "==" es necesario para poder comparar, ya que un solo signo de igualdad se interpreta como operador de asignacion ###
 ### Ejemplo de uso de Else ###
 B=10+10
 print(B)
