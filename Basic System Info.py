@@ -32,8 +32,8 @@ cpu_stats = psutil.cpu_stats() # Advanced info about processor
 print("Max CPU Frequency: ",cpu_freq.max, "Mhz")
 print("Min CPU Frequency: ",cpu_freq.min, "Mhz")
 print("Current CPU Frequency: ",cpu_freq.current, "Mhz")
-print("Total physical cores: ", psutil.cpu_count(logical=False)) # logical=False especifica que solo se tomen en cuenta los núcleos físicos
-print("Total logical cores: ", psutil.cpu_count(logical=True)) # logical=True especifica que se tomen en cuenta tambien los núcleos lógicos
+print("Total physical cores: ", psutil.cpu_count(logical=False)) # Only physical cores
+print("Total logical cores: ", psutil.cpu_count(logical=True)) # Logical cores included
 print("Advanced Info:")
 print("CPU usage percentage: ", cpu_percent,"%")
 print("CTX Switches: ", cpu_stats.ctx_switches)
